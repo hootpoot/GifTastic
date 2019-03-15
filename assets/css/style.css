@@ -1,10 +1,27 @@
 .form-control {
-    width: 350px;
+    max-width: 400px;
     display: inline-block;
-    
+    margin: 10px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #buttons-here {
-    height: 200px;
+    height: 150px;
 }
 
+.gif-button {
+    margin: 10px;
+}
+
+#gifs-here {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 15px;
+}
